@@ -107,7 +107,7 @@ MiSTer Core OSD (F12) :
   - Don't forget to wire the Ground -> First GPIO header: PIN12
 - Use Putty or TeraTerm for client and use the 19200 baud setting.
 
-![alt text](./images/DE-10_Serial.png)
+![Altair8800-DE10-Standard-DE1-SoC-SoCKit-GPIO-Serial-layout](https://user-images.githubusercontent.com/48859672/70395398-7e535700-19fe-11ea-9c66-eecc22df36e7.png)
 
   
 ## Credits
