@@ -107,8 +107,8 @@ MiSTer Core OSD (F12) :
   - Don't forget to wire the Ground -> First GPIO header: Ground - PIN12
 - Use Putty or TeraTerm for client and use the 19200 baud setting.
 
-In case of Altera DE10-Standard the First GPIO header is J1, because no other GPIO header
-In case of Altera DE1-SoC the First GPIO header is J1, the second is J2
+In case of Altera DE10-Standard the First GPIO header is JP1, because no other GPIO header
+In case of Altera DE1-SoC the First GPIO header is JP1, the second is JP2
 In case of Arrow SoCKit, there is no integrated GPIO header, you have to use HSTC-GPIO daughter board card and the first available GPIO header will be J3.
 
 ![Altair8800-DE10-Standard-DE1-SoC-SoCKit-GPIO-Serial-layout](https://user-images.githubusercontent.com/48859672/70395398-7e535700-19fe-11ea-9c66-eecc22df36e7.png)
