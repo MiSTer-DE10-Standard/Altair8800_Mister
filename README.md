@@ -102,9 +102,9 @@ MiSTer Core OSD (F12) :
 ## Serial port
 - To use the serial port you need to have an I/O Board v5.5 or do a hardware Wiring:
   - Any USB to 3.3V (NOT 5.5V) TTL Serial Cable Adapter should work.
-  - TX of the TTL Serial Cable Adapter -> First GPIO header:: PIN1
-  - RX of the TTL Serial Cable Adapter -> First GPIO header: PIN0
-  - Don't forget to wire the Ground -> First GPIO header: PIN12
+  - TX of the TTL Serial Cable Adapter -> First GPIO header: GPIO_D1 (PIN2)
+  - RX of the TTL Serial Cable Adapter -> First GPIO header: GPIO_D0 (PIN1)
+  - Don't forget to wire the Ground -> First GPIO header: Ground - PIN12
 - Use Putty or TeraTerm for client and use the 19200 baud setting.
 
 ![Altair8800-DE10-Standard-DE1-SoC-SoCKit-GPIO-Serial-layout](https://user-images.githubusercontent.com/48859672/70395398-7e535700-19fe-11ea-9c66-eecc22df36e7.png)
